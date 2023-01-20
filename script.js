@@ -76,7 +76,7 @@ document.querySelector(`.check`).addEventListener(`click`, function () {
         document.querySelector(`.number`).textContent = secretNum;
 
 
-        document.querySelector(`.highscore`).textContent = secretNum;
+        //  document.querySelector(`.highscore`).textContent = secretNum;
 
         //css for winner
         document.querySelector(`body`).style.backgroundColor = `green`;
